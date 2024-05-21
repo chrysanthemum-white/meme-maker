@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Meme-maker</title>
+  </head>
+  <body>
+    <div>
+      <input type="color" id="color" />
+      <div
+        class="color-option"
+        data-color="#001219"
+        style="background-color: #001219"
+      ></div>
+      <div
+        class="color-option"
+        data-color="#005F73"
+        style="background-color: #005f73"
+      ></div>
+      <div
+        class="color-option"
+        data-color="#0A9396"
+        style="background-color: #0a9396"
+      ></div>
+      <div
+        class="color-option"
+        data-color="#94D2BD"
+        style="background-color: #94d2bd"
+      ></div>
+      <div
+        class="color-option"
+        data-color="#E9D8A6"
+        style="background-color: #e9d8a6"
+      ></div>
+      <div
+        class="color-option"
+        data-color="#EE9B00"
+        style="background-color: #ee9b00"
+      ></div>
+      <div
+        class="color-option"
+        data-color="#CA6702"
+        style="background-color: #ca6702"
+      ></div>
+      <div
+        class="color-option"
+        data-color="#BB3E03"
+        style="background-color: #bb3e03"
+      ></div>
+      <div
+        class="color-option"
+        data-color="#AE2012"
+        style="background-color: #ae2012"
+      ></div>
+      <div
+        class="color-option"
+        data-color="#9B2226"
+        style="background-color: #9b2226"
+      ></div>
+    </div>
+    <canvas></canvas>
+    <div>
+      <input type="range" id="range" max="10" min="1" value="5" step="1" />
+      <button id="mode-change">Fill</button>
+      <button id="eraser">Eraser</button>
+      <button id="destroy">destroy</button>
+      <input type="file" accept="image/*" id="file" />
+      <input type="text" id="text-input" placeholder="Please enter the text" />
+      <button id="save">Save</button>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
